@@ -134,7 +134,6 @@ public class WebBaseAction extends BaseAction {
     }
 
     @Override
-    @Override
     public void execute(BaseRequest request, BaseResponse response) {
         try {
             if (!checkAuthWithCookie(request, response)) {
